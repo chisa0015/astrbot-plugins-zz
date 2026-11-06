@@ -1,6 +1,6 @@
-# AstrBot 插件集 · 夜煞
+# AstrBot 插件集 · 千夏
 
-自建的 5 个 AstrBot 插件，全部用 `astrbot_plugin_zz_` 前缀（`zz` = 夜煞）。
+自建的 5 个 AstrBot 插件，全部用 `astrbot_plugin_zz_` 前缀（`zz` = 千夏）。
 
 | 插件 | 版本 | 功能 |
 |---|---|---|

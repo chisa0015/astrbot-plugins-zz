@@ -3,6 +3,6 @@ display_name: 随机cos
 short_desc: 随机 cos 图（cosplay8 图集 / 绅士会所 r18）
 desc: 命令 cos / 随机cos / 来张cos / cos图 [1-5] 抓 cosplay8 图集；命令里带 r18 则走绅士会所。图片先下载到本地再以图片消息发送，网络走“本地代理优先、直连兜底”。
 version: 1.1.0
-author: yesha
+author: 千夏
 repo: ""
 astrbot_version: ">=4.17.0"
