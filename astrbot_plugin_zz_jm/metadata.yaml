@@ -1,0 +1,6 @@
+name: astrbot_plugin_zz_jm
+display_name: JM下载
+desc: JM 漫画下载并转成 PDF 发送
+version: v1.0.0
+author: 鲸鱼娘
+repo: ""

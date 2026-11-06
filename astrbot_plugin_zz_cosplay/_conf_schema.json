@@ -1,0 +1,23 @@
+{
+  "source": {
+    "type": "string",
+    "description": "默认图源",
+    "hint": "cosplay8=国内/国外 cos 图集（穿衣服、全年龄）；hentaiclub=绅士会所 r18 图集。命令里加 r18 可临时切到绅士会所。",
+    "default": "cosplay8",
+    "options": ["cosplay8", "hentaiclub"]
+  },
+  "club_sort": {
+    "type": "string",
+    "description": "绅士会所分级",
+    "hint": "r18=成人；r15=擦边。仅在走 hentaiclub 源时生效。",
+    "default": "r18",
+    "options": ["r18", "r15"]
+  },
+  "permission": {
+    "type": "string",
+    "description": "使用范围",
+    "hint": "all=谁都能用；admin=仅管理员；group=仅群聊。",
+    "default": "all",
+    "options": ["all", "admin", "group"]
+  }
+}

@@ -1,0 +1,8 @@
+name: astrbot_plugin_zz_hanime
+display_name: 里番
+short_desc: hanime1.me 随机推荐 / 最新上市 / 每日推送
+desc: 命令 里番 [N]、随机里番 [N]、里番新作 [N]、里番 搜索 关键词。配置 push_enabled + push_time + push_targets + push_count 后，每天定时推送最新上市前 N 部（带封面）。站点需代理访问。
+version: 1.0.0
+author: yesha
+repo: ""
+astrbot_version: ">=4.17.0"

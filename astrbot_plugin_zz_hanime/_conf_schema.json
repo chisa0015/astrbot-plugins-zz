@@ -1,0 +1,79 @@
+﻿{
+    "push_enabled":  {
+                         "type":  "bool",
+                         "description":  "每日新作推送",
+                         "hint":  "开启后每天 push_time 推送最新上市前 push_count 部（带封面）。",
+                         "default":  true
+                     },
+    "push_time":  {
+                      "type":  "string",
+                      "description":  "推送时间",
+                      "hint":  "24 小时制 HH:MM，例如 21:00。",
+                      "default":  "21:00"
+                  },
+    "push_count":  {
+                       "type":  "int",
+                       "description":  "每次推几部",
+                       "hint":  "默认 20，最大 20（一层聊天记录，带封面）",
+                       "default":  20
+                   },
+    "push_targets":  {
+                         "type":  "list",
+                         "description":  "推送目标",
+                         "hint":  "umo 列表，例如 aiocqhttp:FriendMessage:2899675402（主人私聊）、aiocqhttp:GroupMessage:820569056（群）。可写 owner。",
+                         "default":  [
+                                         "owner"
+                                     ]
+                     },
+    "napcat_ws":  {
+                      "type":  "string",
+                      "description":  "NapCat WS 地址",
+                      "hint":  "取群列表用，默认 ws://127.0.0.1:3001。",
+                      "default":  "ws://127.0.0.1:3001"
+                  },
+    "napcat_token":  {
+                         "type":  "string",
+                         "description":  "NapCat token",
+                         "hint":  "默认 napcat_ws_1132046。",
+                         "default":  "napcat_ws_1132046"
+                     },
+    "weekly_push_count":  {
+                              "type":  "int",
+                              "description":  "周推送部数",
+                              "hint":  "默认 10，最大 20。",
+                              "default":  10
+                          },
+    "weekly_push_groups":  {
+                               "type":  "string",
+                               "description":  "推送群",
+                               "hint":  "all=所有群（自动取群列表）；也可填逗号分隔的群号。",
+                               "default":  "all"
+                           },
+    "weekly_push_time":  {
+                             "type":  "string",
+                             "description":  "周推送时间",
+                             "hint":  "HH:MM，默认 21:00。",
+                             "default":  "21:00"
+                         },
+    "weekly_push_enabled":  {
+                                "type":  "bool",
+                                "description":  "每周预告推送",
+                                "hint":  "开启后每周固定日把里番预告推到所有群。",
+                                "default":  true
+                            },
+    "weekly_push_day":  {
+                            "type":  "string",
+                            "description":  "周几推",
+                            "hint":  "sun/mon/tue/wed/thu/fri/sat，默认 sun（周日）。",
+                            "default":  "sun"
+                        },
+    "push_times":  {
+                       "type":  "list",
+                       "description":  "每日推送时间点",
+                       "hint":  "可多个，例如 07:00、19:00。",
+                       "default":  [
+                                       "07:00",
+                                       "19:00"
+                                   ]
+                   }
+}

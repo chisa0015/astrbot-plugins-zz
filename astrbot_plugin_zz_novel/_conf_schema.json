@@ -1,0 +1,40 @@
+﻿{
+    "source":  {
+                   "type":  "string",
+                   "description":  "默认小说源",
+                   "hint":  "linovel=轻之文库（linovel.net，正文 SSR 好抓）；wenku8=文库8（GBK 老站，速度稳）。命令里跟源名可临时切换，例如 `小说 wenku8 5`。",
+                   "default":  "linovel",
+                   "options":  [
+                                   "linovel",
+                                   "wenku8"
+                               ]
+               },
+    "chapters_per_pdf":  {
+                             "type":  "int",
+                             "description":  "每次打包章节数",
+                             "hint":  "默认 3 章，范围 1~10。章节越多 PDF 越大、生成越久。",
+                             "default":  3
+                         },
+    "max_chars_per_chapter":  {
+                                  "type":  "int",
+                                  "description":  "单章正文截断字数",
+                                  "hint":  "默认 6000 字，范围 500~20000；防止单章超长把 PDF 撑爆。",
+                                  "default":  6000
+                              },
+    "cover_enhance":  {
+                          "type":  "string",
+                          "description":  "封面增强（Bangumi 高清封面）",
+                          "hint":  "on=按书名去 bgm.tv 搜高清封面，找不到自动退回站点自带封面；off=只用站点封面。",
+                          "default":  "on",
+                          "options":  [
+                                          "on",
+                                          "off"
+                                      ]
+                      },
+    "pdf_keep_days":  {
+                          "type":  "int",
+                          "description":  "PDF 保留天数",
+                          "hint":  "启动时自动清理超过该天数的 PDF 与封面缓存（1~90，默认 7 天）。",
+                          "default":  7
+                      }
+}

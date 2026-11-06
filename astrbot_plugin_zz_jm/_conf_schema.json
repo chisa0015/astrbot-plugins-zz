@@ -1,0 +1,6 @@
+{
+  "proxy": {"description": "下载代理", "type": "string", "default": "http://127.0.0.1:7890"},
+  "work_dir": {"description": "缓存目录", "type": "string", "default": "D:\\DSK\\BOT\\runtime\\jm"},
+  "threads": {"description": "下载并发", "type": "int", "default": 16},
+  "keep_days": {"description": "PDF 保留天数", "type": "int", "default": 3}
+}

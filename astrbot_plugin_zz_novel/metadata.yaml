@@ -1,0 +1,8 @@
+name: astrbot_plugin_zz_novel
+display_name: 随机小说PDF
+short_desc: 从轻之文库 / 文库8 抽一本书，抓若干章正文排版成 PDF 发文件
+desc: 命令 小说 / 随机小说 / 来本小说 / 看小说 [源] [章节数]；源可选 linovel（默认，linovel.net）或 wenku8（文库8）。每次随机一本书、随机 N 章（默认 3，最多 10），用 reportlab + 微软雅黑排版成 A5 PDF（内嵌字体、可选中文字），以文件消息发送。
+version: 2.0.0
+author: yesha
+repo: ""
+astrbot_version: ">=4.17.0"

@@ -1,0 +1,14 @@
+{
+  "wallpaper_url": {
+    "type": "string",
+    "description": "随机壁纸接口",
+    "hint": "默认 https://www.loliapi.com/acg/ （每次返回一张随机 ACG 图）。取不到会自动退化成纯色底。",
+    "default": "https://www.loliapi.com/acg/"
+  },
+  "proxy": {
+    "type": "string",
+    "description": "壁纸下载代理",
+    "hint": "默认 http://127.0.0.1:7890；留空则直连。",
+    "default": "http://127.0.0.1:7890"
+  }
+}

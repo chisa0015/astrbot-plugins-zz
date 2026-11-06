@@ -1,0 +1,8 @@
+name: astrbot_plugin_zz_fortune
+display_name: 运势卡
+short_desc: 今日运势卡片：随机壁纸 + 吉凶 + 五项指数 + 宜忌 + 幸运元素
+desc: 命令 运势卡 / 抽运势 / 今日运势卡 [名字]。渲染 900×1440 图片：随机二次元壁纸、吉凶大字、五星制、爱情/事业/学业/财运/健康五项指数、宜忌、幸运色/数字/开运物。
+version: 1.0.0
+author: yesha
+repo: ""
+astrbot_version: ">=4.17.0"
